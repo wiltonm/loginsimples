@@ -1,0 +1,61 @@
+body {
+margin: 0;
+padding: 0;
+margin-bottom: 0;
+position: absolute;
+width: 100vh;
+height: 100vh;
+overflow: hidden;
+}
+.img-bg img {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+
+}
+.container {
+  margin-left: 350px;
+  margin-top: -600px;
+  padding: 100px 250px 400px 350px;
+  display: grid;
+  position: absolute;
+  text-align: center;
+}
+.id {
+  position: relative;
+  display: flexbox;
+  align-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.4rem;
+  font-style: italic;
+}
+.check {
+  padding: 60px;
+   position: relative;
+   display: flexbox;
+   align-items: right;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-weight: bolder;
+   
+}
+.form input {
+  border-radius: 20px;
+}
+.button- {
+  padding: 10px  40px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1em;
+  border: solid;
+  border-radius: 20px;
+}
+.click::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 2px;
+  background: grey;
+  margin: 8px auto
+}
+
+
